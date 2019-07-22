@@ -25,10 +25,6 @@
             placeholder="选择你要转换到的格式"
             optionFilterProp="children"
             style="width: 300px;"
-            @focus="handleFocus"
-            @blur="handleBlur"
-            @change="handleChange"
-            :filterOption="filterOption"
           >
             <a-select-option value="jpg">JPG</a-select-option>
             <a-select-option value="bmp">BMP</a-select-option>
@@ -44,7 +40,7 @@
 
 <script>
 export default {
-  name: "AllConverter"
+  name: "Home"
 };
 </script>
 
